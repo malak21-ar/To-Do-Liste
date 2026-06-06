@@ -255,6 +255,10 @@ body {
     padding: 40px 24px;
     text-align: center;
   }
+  .titre {
+  font-size: 2.8rem;
+  line-height: 1.1;
+}
   .hero-gauche  { align-items: center; }
   .hero-droite  { align-items: center; }
   .description  { text-align: center; }
