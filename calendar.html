@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To Do Liste — Mes Tâches</title>
+  <link rel="stylesheet" href="calendar.css"/>
+</head>
+<body>
+
+  
+  <header class="header">
+    <span class="logo">To Do Liste</span>
+    <a href="todoliste.html" class="retour">← Accueil</a>
+  </header>
+
+  
+  <div class="mise-en-page">
+
+    
+    <aside class="colonne-cal">
+
+      <div class="mois-nav">
+        <button id="btnPrev">&#8249;</button>
+        <span id="moisLabel"></span>
+        <button id="btnNext">&#8250;</button>
+      </div>
+
+      <div class="cal-grille" id="calGrille">
+        <div class="cal-entete">L</div>
+        <div class="cal-entete">M</div>
+        <div class="cal-entete">M</div>
+        <div class="cal-entete">J</div>
+        <div class="cal-entete">V</div>
+        <div class="cal-entete">S</div>
+        <div class="cal-entete">D</div>
+      </div>
+
+      <div class="legende">
+        <span><span class="dot vert"></span> Tâches enregistrées</span>
+        <span><span class="dot rose"></span> Aujourd'hui</span>
+      </div>
+
+    </aside>
+
+   
+    <main class="colonne-taches">
+
+      
+      <div class="etat-vide" id="etatVide">
+        <p class="vide-icone">&#128197;</p>
+        <p class="vide-titre">Aucun jour sélectionné</p>
+        <p class="vide-texte">Clique sur un jour pour voir et gérer tes tâches.</p>
+      </div>
+
+     
+      <div class="panel" id="panel">
+
+        <div class="panel-entete">
+          <div>
+            <p class="panel-surtitre" id="panelSurtitre"></p>
+            <h2 class="panel-titre" id="panelTitre"></h2>
+          </div>
+          <div class="stats" id="stats"></div>
+        </div>
+
+        <div class="barre-fond" id="barreFond">
+          <div class="barre-remplie" id="barreRemplie"></div>
+        </div>
+
+        <div class="ajout-zone">
+          <input type="text" id="inputTache" class="ajout-input" placeholder="Nouvelle tâche..." autocomplete="off"/>
+          <button id="btnAjouter" class="ajout-btn">Ajouter</button>
+        </div>
+
+        <ul class="liste" id="liste"></ul>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  <script src="calendar.js"></script>
+</body>
+</html>
