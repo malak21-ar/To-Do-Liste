@@ -258,6 +258,7 @@ body {
   .titre {
   font-size: 2.9rem;
   line-height: 1.1;
+  margin-bottom: 12px;
 }
   .hero-gauche  { align-items: center; }
   .hero-droite  { align-items: center; }
