@@ -261,7 +261,7 @@ body {
 }
   .hero-gauche  { align-items: center; }
   .hero-droite  { align-items: center; }
-  .description  { text-align: center; }
+  .description  { text-align: center; font-size: 2rem; }
   .separateur   { width: 60px; height: 1px; }
   .header       { padding: 20px 24px; }
   .footer       { padding: 20px 24px; }
