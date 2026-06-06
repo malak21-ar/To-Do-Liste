@@ -251,12 +251,12 @@ body {
 @media (max-width: 860px) {
   .hero {
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
     padding: 40px 24px;
     text-align: center;
   }
   .titre {
-  font-size: 3rem;
+  font-size: 3.1rem;
   line-height: 1.1;
 }
   .hero-gauche  { align-items: center; }
